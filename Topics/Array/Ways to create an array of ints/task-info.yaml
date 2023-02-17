@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "int numbers[] = new array[10];"
+- text: "int numbers[] = new int[](10);"
+- text: "int[] numbers = new array[10];"
+- text: "int[] numbers = new int(10);"
+- text: "int[] numbers = new int[10];"
+- text: "int numbers[] = new int[10];"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2709#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 15 Dec 2022 03:31:50 UTC"
+record: -1
+selected_options:
+- 4
+- 5
+local_check: false
